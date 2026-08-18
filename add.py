@@ -29,4 +29,12 @@ print(a.imag)
 
 
 
+#type casting
+ # we can change the data typein type casting
+print(int(10.25))
+print(int("22"))
+print(int(False))
+
+
+
 
