@@ -1,6 +1,6 @@
 #NESTED IF-ELSE STETMENT
 #1
-num=int(input("Enter Any Number: "))
+'''num=int(input("Enter Any Number: "))
 if(num>0):
     print("Positive Number")
     if(num%2==0):
@@ -55,4 +55,16 @@ if(Battery<=50):
     else:
         print("After Some Time Your Mobile will Switch off.")
 else:
-    print("Dont Need to Charge Mobile")
+    print("Dont Need to Charge Mobile")'''
+
+
+#6
+num=int(input("Enter Any Number"))
+if(num%5==0 and num%3==0):
+    print("Number is Divisible By 5 and 3")
+    if(num%3==0):
+        print("Number is Divisible by 3")
+    else:
+        print("Number is Not Divisible by 3")
+else:
+    print("Not Divisible by 5 and 3")

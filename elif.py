@@ -1,6 +1,6 @@
 # lader stetment     5 example
 # Find Greater Number
-'''a=int(input("Enter A value: "))
+a=int(input("Enter A value: "))
 b=int(input("Enter B value: "))
 c=int(input("Enter C value: "))
 if(a>b and a>c):
@@ -63,7 +63,7 @@ elif(ch=='O' or ch=='o'):
 elif(ch=='U' or ch=='u'):
     print("Character is a Vowels")
 else:
-    print("Character is Not a Vowels")'''
+    print("Character is Not a Vowels")
 
 
 #Count temp
