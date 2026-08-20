@@ -133,7 +133,7 @@ num=int(input("Enter Any Number: "))
 i=1
 while(i<=10):
     print(num,"*",i,"=",num*i)
-    i=i+1 '''
+    i=i+1 
 
 
 
@@ -144,7 +144,31 @@ while(i<=10):
         print(i,"Square =",i*i)
     else:
         print(i,"Cube",i**3)
-    i=i+1
+    i=i+1  '''
+
+#13  digit is 246 and ans is 48 
+num=246
+i=1
+while(num>0):
+    rem=num%10
+    i=i*rem
+    num=num//10
+print(i)
+
+
+
+
+#13  digit is 64 and ans is 10
+num=64
+i=0
+while(num>0):
+    rem=num%10
+    i=i+rem
+    num=num//10
+print(i)
+
+
+
 
 
 
