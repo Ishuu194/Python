@@ -1,0 +1,4 @@
+#2.Create a file named data.txt and write your name, age, and city into it
+Name:- Ishwari
+Age:- 22
+City:- Jalgaon

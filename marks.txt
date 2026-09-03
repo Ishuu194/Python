@@ -1,0 +1,6 @@
+
+Python: 80
+Java: 75
+Mern Stack: 85
+
+
