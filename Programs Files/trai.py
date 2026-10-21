@@ -7,7 +7,12 @@
 for i in range(5):    # 5 row in table 
     print(" #" * 4)    #multiply by 4 means 4 colums
 
+rows = 5
 
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
 
 
  
